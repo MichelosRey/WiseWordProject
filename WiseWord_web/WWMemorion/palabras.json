@@ -1,0 +1,36 @@
+{
+  "words": [
+    {
+      "ingles": "Hello",
+      "espanol": "Hola"
+    },
+    {
+      "ingles": "Goodbye",
+      "espanol": "Adiós"
+    },
+    {
+      "ingles": "Cat",
+      "espanol": "Gato"
+    },
+    {
+      "ingles": "Dog",
+      "espanol": "Perro"
+    },
+    {
+      "ingles": "House",
+      "espanol": "Casa"
+    },
+    {
+      "ingles": "Car",
+      "espanol": "Coche"
+    },
+    {
+      "ingles": "Tree",
+      "espanol": "Árbol"
+    },
+    {
+      "ingles": "Book",
+      "espanol": "Libro"
+    }
+  ]
+}

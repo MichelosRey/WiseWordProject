@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+body {
+    
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+
+}
+
+
+.nav_container {
+    background-color: rgb(0, 119, 255);
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 5rem;
+    margin: auto;
+
+
+}
+
+.logo_container {
+    display: flex;
+    
+}
+
+.logo_text {
+    max-width: 1px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+span img {
+    width: 5rem;
+}
+
+
+/* .nav_btn{
+
+}
+ */
+
+
+.btn {
+    border: .15rem solid #fff;
+    color: #116eee;
+    border-radius: 5vh;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+
+
+}
+
+.nav_btn .btn_log {
+    background-color: #fff;
+    color: #116eee;
+}
+
+.btn:hover {
+    background-color: #6dffb1e2;
+    transform: scale(1.1);
+}
+
+.hero {
+
+    width: 75vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.hero_text {
+    width: 50%;
+    margin-right: 8rem;
+}
+
+.hero_text h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.hero_text p {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.hero_text .hero_btn {
+    border: .15rem solid #fff;
+    color: #116eee;
+    border-radius: 5vh;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hero_text .hero_btn:hover {
+    background-color: #6dffb1e2;
+}
+
+main {
+    background-color: #ececec;
+    width: 100vw;
+}
+
+.flag_container {
+
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_text {
+    color: #000000;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.flag img {
+    width: 9rem;
+}
+
+.flag img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.games {
+    color: #000000;
+    width: 60vw;
+    margin: auto;
+
+}
+
+.game_text {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.games .first_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.games .second_row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.game {
+    height: 12vh;
+    width: 12vw;
+    background-color: #116eee;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-radius: .5vh;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+
+.game:hover {
+    box-shadow: 0 0 20px #2b2b2be2;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+footer {
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.footer_text {
+    text-align: center;
+    margin: 2rem 0;
+    text-decoration: underline;
+}
+
+footer .social {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social img {
+    width: 3rem;
+}

@@ -1,0 +1,76 @@
+html {
+    /* height: 100%; */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+body {
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    font-family: sans-serif;
+
+}
+
+
+
+main {
+    width: 50vw;
+    margin: 100px auto;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: .5vh;
+    padding: 1rem;
+
+
+}
+
+.estadisticas {
+    border: 3px solid white;
+    height: 105px;
+    width: 180px;
+    border-radius: .5vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.section2 {
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+    border-radius: .5vh;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+table {
+    margin: 50px auto;
+}
+
+button {
+    height: 12rem;
+    width: 12rem;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    border-radius: .5vh;
+    border: none;
+    margin: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(104, 255, 119);
+    box-shadow: 0 0 10px rgb(126, 255, 112);
+
+}
